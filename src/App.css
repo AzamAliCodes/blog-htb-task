@@ -1,0 +1,24 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+hr {
+  border-color: #61dafb;
+}
