@@ -1,35 +1,24 @@
-# 🚀 Blog HTB Task 🚀
+# 🎮 Pokémon Game Archive 🎮
 
-This project is a simple blog application created with React.
+This is a simple React website that displays a chronological list of all the main series Pokémon games.
 
-## ▶️ Getting Started
+## ℹ️ About
 
-To get a local copy up and running, follow these simple steps.
+This project was created as a simple React task. It uses `react-router-dom` for routing. The design and dark theme are inspired by the official React documentation website, [react.dev](https://react.dev/).
 
-### 📋 Prerequisites
+## 🚀 Deployment
 
-*   npm
-    ```sh
-    npm install npm@latest -g
-    ```
+The application is deployed on Vercel and can be accessed here:
 
-### ⚙️ Installation
+🔗 [https://blog-htb-task.vercel.app/](https://blog-htb-task.vercel.app/)
 
-1.  Clone the repo
-    ```sh
-    git clone https://github.com/your_username_/Project-Name.git
-    ```
-2.  Install NPM packages
-    ```sh
-    npm install
-    ```
+## 💻 Local Deployment
 
-### 🏃‍♀️ Running the Application
-
-To start the development server, run the following command:
+In the project directory, you can run:
 
 ```sh
 npm start
 ```
 
-This will open the app in your browser at [http://localhost:3000](http://localhost:3000).
+This runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
