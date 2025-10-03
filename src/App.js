@@ -31,10 +31,12 @@ function App() {
 
 const Home = () => (
   <div>
-    <h2>Welcome to the Pokémon Game Archive</h2>
-    <p>This website provides a chronological list of all the main series Pokémon games, from the original Red and Blue to the upcoming Legends: Z-A.</p>
-    <p>Click on the "Pokémon Games" link in the navigation to see the full list.</p>
+    <h2>Welcome to the Ultimate Pokémon Game Archive!</h2>
+    <p>Your definitive guide to the main series Pokémon games. From the nostalgic routes of Kanto in 1998 to the vast open world of Paldea, we\'ve chronicled every step of the journey.</p>
+    <p>Explore the full chronological list via the "Pokémon Games" link and relive the adventure. Become the Pokémon Master you were always meant to be!</p>
   </div>
 );
 
 export default App;
+
+// Refreshed
