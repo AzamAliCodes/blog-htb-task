@@ -112,6 +112,11 @@ const blogPosts = [
     title: 'Pokémon Legends: Z-A (2025)',
     content: 'A new Pokémon Legends game, announced for release in 2025.',
   },
+  {
+    id: 23,
+    title: 'Future Pokémon Game (TBA)',
+    content: 'A placeholder for the next exciting adventure in the Pokémon world!',
+  },
 ];
 
 const Blogs = () => {
