@@ -1,7 +1,6 @@
 import React from 'react';
-import './Blogs.css'; // Import the CSS file
+import './Blogs.css';
 
-// Sample blog post data
 const blogPosts = [
   {
     id: 1,
@@ -115,14 +114,11 @@ const blogPosts = [
   },
 ];
 
-// The Blogs component displays a list of blog posts in a grid.
 const Blogs = () => {
   return (
     <div>
       <h1>Pokémon Games</h1>
-      {/* This is the grid container for the blog posts. */}
       <div className="blog-grid">
-        {/* We are mapping over the blogPosts array to display each post. */}
         {blogPosts.map((post) => (
           <div key={post.id} className="blog-post">
             <h2>{post.title}</h2>
