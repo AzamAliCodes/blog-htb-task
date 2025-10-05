@@ -1,31 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Blogs from './Blogs';
+import { Routes, Route, Link } from 'react-router-dom';
+import Blogs from './Blogs.jsx';
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/blogs">Pokémon Games</Link>
-            </li>
-          </ul>
-        </nav>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Pokémon Games</Link>
+          </li>
+        </ul>
+      </nav>
 
-        <hr />
+      <hr />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blogs" element={<Blogs />} />
-        </Routes>
-      </div>
-    </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+      </Routes>
+    </div>
   );
 }
 
